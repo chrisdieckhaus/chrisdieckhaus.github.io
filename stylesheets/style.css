@@ -9,6 +9,7 @@ img.logo{
 
 div.nav{
     width: 95%;
+    border: solid black 1pt;
 }
 
 .nav ul {
@@ -20,4 +21,5 @@ div.nav{
 .nav li {
     display: inline;
     width: 20%;
+    border: solid black 1pt;
 }
