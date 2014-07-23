@@ -6,3 +6,9 @@ img.logo{
     width: 100px;
     height: 100px;
 }
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
