@@ -12,3 +12,7 @@ img.logo{
     margin: 0;
     padding: 0;
 }
+
+.nav li {
+    display: inline;
+}
