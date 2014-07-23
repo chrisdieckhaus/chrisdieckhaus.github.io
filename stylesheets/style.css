@@ -8,12 +8,13 @@ div.nav{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    border: solid black 1pt;
+
 }
 
 img.logo{
     width: 300px;
     height: 300px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
