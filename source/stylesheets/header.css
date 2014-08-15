@@ -1,48 +1,26 @@
 div.nav{
     background-image: linear-gradient(to bottom, #ffffff 0%, #Ffffff 100%);
-    height: 75px;
-    color: #102A78;
+    height: 60px;
+    color: #1039B3;
     width: 100%;
     margin:0;
     box-shadow:0 0 10px black;
+    display: table;
 }
 
-div.container{
-    height: 75px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container div.bar-right, .container div.bar-left{
-    font-family: Montserrat, sans-serif;
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    height: 75px;
-    width: auto;
+.container{
     display: table-cell;
     vertical-align: middle;
 }
 
-.bar-right ul, .bar-left ul{
-    padding-top: 5px;
-    padding-left: 0;
+.nav-content ul{
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
 }
 
-.bar-right li, .bar-left li{
+.nav-content li{
     display: inline;
     list-style-type: none;
-    padding-right: 40px;
-    padding-left: 40px;
-}
-
-.container a, .container a:visited{
-    text-decoration: none;
-    color: #edeff5;
-    color: #102A78;
-}
-
-.container a:hover{
-    border-bottom: 2px solid #edeff5;
-    border-bottom: 2px solid #102a78;
+    padding: 10px 40px 0 40px;
 }
