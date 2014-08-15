@@ -11,10 +11,11 @@
   <%= stylesheet_link_tag "normalize" %>
   <%= stylesheet_link_tag "foundation" %>
   <%= stylesheet_link_tag "all" %>
+  <%= stylesheet_link_tag "foundation-icons/foundation-icons/foundation-icons.css" %>
   <%= javascript_include_tag  "vendor/modernizr" %>
 </head>
 <body>
-
+  <%= partial 'header' %>
   <%= yield %>
 
   <%= javascript_include_tag  "vendor/jquery" %>
