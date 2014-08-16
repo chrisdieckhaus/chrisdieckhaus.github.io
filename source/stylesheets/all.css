@@ -53,3 +53,23 @@ h1 {
     -webkit-transform: scale(1);
   }
 }
+
+@font-face {
+  font-family: "Nexa-Light";
+  src: url('../fonts/nexa/NexaLight.otf');
+}
+
+@font-face {
+  font-family: "Nexa-Bold";
+  src: url('../fonts/nexa/NexaBold.otf');
+}
+
+@font-face {
+  font-family: "Adam";
+  src: url('../fonts/ADAM/ADAM.otf');
+}
+
+@font-face {
+  font-family: "Langdon";
+  src: url('../fonts/langdon/Langdon.otf');
+}

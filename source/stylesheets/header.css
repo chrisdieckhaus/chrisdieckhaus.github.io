@@ -20,7 +20,13 @@ div.nav{
 }
 
 .nav-content li{
-    display: inline;
-    list-style-type: none;
-    padding: 10px 40px 0 40px;
+  display: inline;
+  list-style-type: none;
+  padding: 10px 40px 0 40px;
+
+	text-transform: uppercase;
+}
+
+a:hover{
+    border-bottom: 2px solid #102a78;
 }
