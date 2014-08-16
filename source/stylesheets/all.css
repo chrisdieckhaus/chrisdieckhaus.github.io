@@ -73,3 +73,8 @@ h1 {
   font-family: "Langdon";
   src: url('../fonts/langdon/Langdon.otf');
 }
+
+@font-face {
+  font-family: "Orian";
+  src: url('../fonts/Oranienbaum/Oranienbaum.ttf');
+}

@@ -27,6 +27,13 @@ div.nav{
 	text-transform: uppercase;
 }
 
-a:hover{
+.nav-content a:hover{
     border-bottom: 2px solid #102a78;
+}
+
+#name-header{
+  font-family: Orian;
+  background-color: #0C0C0C;
+  font-size: 22px;
+  width: 25%;
 }

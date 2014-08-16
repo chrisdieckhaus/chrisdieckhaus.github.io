@@ -1,5 +1,27 @@
 = stylesheet_link_tag "header"
       
+%a.large.button#name-header{ :href => "index.html" }
+  Chris Dieckhaus
+  
+.row{:style => "height: 60px;"}
+  .small-12.columns
+    .nav-content{:style => "font-family: Langdon; letter-spacing: 2px;"}
+      %ul
+        %li
+          = link_to "Chris Dieckhaus", "/index.html"
+        %li 
+          %span /
+        %li
+          = link_to "Photography", "/photo.html"
+        %li 
+          %span /
+        %li
+          = link_to "Code", "/code.html"
+        %li 
+          %span /
+        %li
+          = link_to "Contact", "/contact.html"
+
 .nav
   .row{:style => "height: 60px;"}
     .small-12.columns
