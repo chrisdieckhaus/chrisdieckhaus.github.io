@@ -34,14 +34,14 @@ div.nav{
 }
 
 .nav-content a:hover{
-    border-bottom: 2px solid #102a78;
+    border-bottom: 2px solid #333333;
 }
 
 #name-header{
-  font-family: Abe;
+  font-family: Orian;
   background-color: #0C0C0C;
   font-size: 34px;
-  width: 25%;
+  width: 35%;
   margin-top: 20px;
   letter-spacing: 2px;
 }
