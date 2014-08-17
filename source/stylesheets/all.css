@@ -65,8 +65,8 @@ h1 {
 }
 
 @font-face {
-  font-family: "Adam";
-  src: url('../fonts/ADAM/ADAM.otf');
+  font-family: "Abe";
+  src: url('../fonts/AbrahamLincoln/Abe/AbrahamLincoln.ttf');
 }
 
 @font-face {
@@ -77,4 +77,9 @@ h1 {
 @font-face {
   font-family: "Orian";
   src: url('../fonts/Oranienbaum/Oranienbaum.ttf');
+}
+
+@font-face {
+  font-family: "Bevan";
+  src: url('../fonts/Bevan/Bevan.ttf');
 }
