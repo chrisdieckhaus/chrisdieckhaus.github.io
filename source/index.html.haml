@@ -1,11 +1,12 @@
 = javascript_include_tag 'index'
+= stylesheet_link_tag 'index'
 
-.row#1{:style => "padding-top: 20px;"}
+.row{:style => "padding-top: 20px;"}
   .small-12.columns
-    = image_tag 'images/front-page/alleluia.jpg'
-    
-.row#2{:style => "padding-top: 20px;"}
-  .small-12.columns
-    = image_tag 'images/front-page/chapel.jpg'
+    %ul#slider
+      %li 
+        = image_tag 'images/front-page/alleluia.jpg'
+      %li 
+        = image_tag 'images/front-page/chapel.jpg'
 
 %p{:style => "font-family: Orian;"} This page is currently under construction.

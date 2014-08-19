@@ -1,11 +1,22 @@
 $( document ).ready(function() {
-    console.log( "GTHC" );
   
-  $(".row#2").hide();
-  
-  setInterval(function(){
-    $(".row#1").hide();
-    $(".row#2").show();
-  }, 7000);
-  
+//Photo slideshow  
+    var delay = 17000;	
+    var transition_speed = 1000;
+    var slideshow = $("#slider"),
+        photoList = slideshow.children('li'),
+        listLength	= photoList.length,
+        i	= 0,
+		changePhoto = function (){
+		    photoList.eq(i).fadeOut(transition_speed, function () {
+				  i += 1;
+				  if (i === listLength) {
+		        i = 0;
+				  }
+				  photoList.eq(i).fadeIn(transition_speed);
+			   });
+
+        };
+    photoList.not(':first').hide();
+    setInterval(changePhoto, delay);
 });
