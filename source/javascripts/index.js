@@ -1,7 +1,7 @@
 $( document ).ready(function() {
   
 //Photo slideshow  
-    var delay = 17000;	
+    var delay = 13000;	
     var transition_speed = 1000;
     var slideshow = $("#slider"),
         photoList = slideshow.children('li'),
