@@ -30,6 +30,6 @@ $( document ).ready(function() {
     
     setTimeout(function(){
       $('.row#nav').scrollView();
-    },2000); 
+    },3500); 
     
 });
