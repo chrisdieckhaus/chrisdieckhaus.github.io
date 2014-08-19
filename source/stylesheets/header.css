@@ -31,6 +31,8 @@ div.nav{
 
 .nav-content a, .nav-content a:visited, .nav-content a:hover{
   color: #333333;
+  line-height: 150%;
+  
 }
 
 .nav-content a:hover{
@@ -43,5 +45,6 @@ div.nav{
   font-size: 34px;
   width: 35%;
   margin-top: 20px;
+  margin-bottom: 10px;
   letter-spacing: 2px;
 }
