@@ -54,6 +54,10 @@ h1 {
   }
 }
 
+p{
+  font-family: Orian, Garamond, serif;
+}
+
 @font-face {
   font-family: "Nexa-Light";
   src: url('../fonts/nexa/NexaLight.otf');
