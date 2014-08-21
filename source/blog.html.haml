@@ -15,10 +15,15 @@ per_page: 10
     %p= link_to 'Previous page', prev_page
 
 - page_articles.each_with_index do |article, i|
-  %h2 
-    = link_to article.title, article 
-    %span= article.date.strftime('%b %e')
-    = article.summary(250)
+  .row#blog-post
+    .small-12.columns
+      %a
+        .large.button#article-header-list
+          = link_to article.title, article, {:style => "color: white"}
+  .row#blog-post
+    .small-12.columns
+      %article#summary
+        = article.summary(350)
 
 - if paginate 
   - if next_page 
