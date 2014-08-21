@@ -5,6 +5,9 @@
 activate :relative_assets
 set :relative_links, true
 
+activate :blog do |blog|
+  #options
+end
 # Change Compass configuration
 # compass_config do |config|
 #   config.output_style = :compact
