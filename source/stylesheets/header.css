@@ -23,7 +23,6 @@ div.nav{
 
 .nav-content li{
   display: inline;
-  font-family: Langdon;
   list-style-type: none;
   padding: 10px 40px 0 40px;
 	text-transform: uppercase;
