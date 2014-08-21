@@ -39,10 +39,11 @@ div.nav{
 
 #name-header{
   font-family: Orian, Garamond, serif;
-  background-color: #0C0C0C;
+  background-color: #141414;
   font-size: 34px;
   width: 35%;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
+  box-shadow: 2px 2px 5px #141414;
 }
