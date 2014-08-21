@@ -9,6 +9,7 @@ page "blog/*", :layout => :blog_layout
 
 activate :blog do |blog|
   blog.prefix = "blog"
+  blog.paginate = true
   blog.layout = "blog_layout"
 end
 # Change Compass configuration
