@@ -5,8 +5,11 @@
 activate :relative_assets
 set :relative_links, true
 
+page "blog/*", :layout => :blog_layout
+
 activate :blog do |blog|
-  #options
+  blog.prefix = "blog"
+  blog.layout = "blog_layout"
 end
 # Change Compass configuration
 # compass_config do |config|
