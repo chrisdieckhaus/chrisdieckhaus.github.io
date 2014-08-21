@@ -1,5 +1,17 @@
 <% wrap_layout :layout do %>
-  <article>
-    <%= yield %>
-  </article>
+  <%= stylesheet_link_tag "blog_post" %>
+  <div class="row" id="blog-post">
+    <div class="small-12 columns">
+      <a><div class="large button" id="article-header">
+        <%= current_article.title %>
+      </div></a>
+    </div>
+  </div>
+  <div class="row" id="blog-post">
+    <div class="small-12 columns">
+      <article>
+        <%= yield %>
+      </article>
+    </div>
+  </div>
 <% end %>
