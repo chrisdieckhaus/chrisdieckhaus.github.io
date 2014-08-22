@@ -1,12 +1,13 @@
 ---
 title: Contact
 ---
-= stylesheet_link_tag 'all'
+= stylesheet_link_tag 'contact'
 
 .row{:style => "padding-top: 10px;"}
-  .small-12.columns#bg
-    .small-6.columns#contact-back
-    .small-6.columns#contact-text
-      = link_to "Email", "mailto:christopherdieckhaus@gmail.com"
-      = link_to "Resume", "https://www.dropbox.com/s/f7xhibfrk80x75b/%5Echris%20dieckhaus%20resume.pdf", :target => "_blank"
-      = link_to "Github", "https://github.com/chrisdieckhaus", :target => "_blank"
+  %p#love I'd love to hear from you.
+
+.row
+  .small-12.columns#contact-text
+    = link_to "Email", "mailto:christopherdieckhaus@gmail.com"
+    = link_to "Resume", "https://www.dropbox.com/s/f7xhibfrk80x75b/%5Echris%20dieckhaus%20resume.pdf", :target => "_blank"
+    = link_to "Github", "https://github.com/chrisdieckhaus", :target => "_blank"

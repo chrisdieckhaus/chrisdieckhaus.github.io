@@ -1,3 +1,42 @@
-p{
- font-family: Orian, Garamond, serif; 
+body{
+  background-image: url('../images/durham3.jpg');
+  background-size: 100% 100%;
+}
+
+#contact-text{
+  letter-spacing: 2px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 30%;
+  height: 10%;
+}
+#contact-text a{
+  font-family: Langdon;
+  text-transform: uppercase;
+  color: #EEEEEE;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+ a:hover{
+    border-bottom: 2px solid #EEEEEE;
+}
+
+p#love{
+  font-family: Orian;
+  font-size: 22px;
+  background: #333333;
+  color: white;
+  width:35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  opacity: .8;
 }
