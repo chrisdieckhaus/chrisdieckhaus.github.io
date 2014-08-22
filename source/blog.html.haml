@@ -5,6 +5,8 @@ title: Blog
 ---
 = stylesheet_link_tag 'blog_post'
 
+.row{:style => "height:30px;"}
+
 - if paginate && num_pages > 1 
   %p 
     Page 
@@ -15,17 +17,26 @@ title: Blog
   - if prev_page 
     %p= link_to 'Previous page', prev_page
 
-- page_articles.each_with_index do |article, i|
-  .row#blog-post
-    .small-12.columns
-      %a
-        .large.button#article-header-list
-          = link_to article.title, article, {:style => "color: white"}
-  .row#blog-post
-    .small-12.columns
-      %article#summary
-        = article.summary(350)
 
+.row#blog-post
+  .small-8.columns
+    - page_articles.each_with_index do |article, i|
+      %a
+        .small.button#article-header-list
+          = link_to article.title, article, {:style => "color: white"}
+        %article#summary
+          = article.summary(350)
+  .small-4.columns
+    %ul
+      - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
+        %li
+          .small.button#article-header-list
+            = year
+        %ul
+          - articles.each do |article|
+            %li#art
+              = link_to article.title, article
+            
 - if paginate 
   - if next_page 
     %p= link_to 'Next page', next_page

@@ -24,7 +24,7 @@ div.nav{
 .nav-content li{
   display: inline;
   list-style-type: none;
-  padding: 10px 40px 0 40px;
+  padding: 10px 35px 0 35px;
 	text-transform: uppercase;
   color: #0C0C0C;
 }
@@ -37,7 +37,7 @@ div.nav{
     border-bottom: 2px solid #333333;
 }
 
-#name-header{
+.large.button#name-header{
   font-family: Orian, Garamond, serif;
   background-color: #141414;
   font-size: 34px;
@@ -48,7 +48,11 @@ div.nav{
   box-shadow: 2px 2px 5px #141414;
 }
 
-body{
-  background-image: url('../images/front-page/wanderlust2.jpg');
-  background-size: 100% 100%;
+.small.button#name-header{
+  font-family: Volkorn-Italic, Garamond, serif;
+  background-color: #333333;
+  color: white;
+  text-transform: none;
+  font-size: 16px;
+  letter-spacing: 2px;
 }

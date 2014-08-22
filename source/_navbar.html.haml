@@ -1,14 +1,12 @@
 = stylesheet_link_tag "header"
-= stylesheet_link_tag "navbar"
   
-.row#nav{:style => "height: 40px;"}
+.row#nav{:style => "height: 40px; padding-bottom: 30px;"}
   .small-12.columns{:style => "text-align: center; margin-top: 10px;"}
     .nav-content{:style => "font-family: Langdon, Arial, sans-serif; letter-spacing: 2px; "}
       %ul
         %li
-          = link_to "Test Home", "/test-index.html"
-        %li 
-          %span /
+          %a.small.button#name-header{ :href => "/index.html" }
+            Chris Dieckhaus
         %li
           = link_to "Photography", "/photo.html"
         %li 

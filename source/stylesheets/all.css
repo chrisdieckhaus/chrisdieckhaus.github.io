@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background: #fafafa;
   text-align: center;
   font-family: sans-serif; }
 
@@ -76,4 +76,14 @@ h1 {
 @font-face {
   font-family: "Glober";
   src: url('../fonts/glober/GloberSemiBold.otf');
+}
+
+@font-face {
+  font-family: "Volkorn";
+  src: url('../fonts/Vollkorn/Vollkorn-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Volkorn-Italic";
+  src: url('../fonts/Vollkorn/Vollkorn-Italic.ttf');
 }

@@ -3,11 +3,18 @@ title: Contact
 ---
 = stylesheet_link_tag 'contact'
 
-.row{:style => "padding-top: 10px;"}
-  %p#love I'd love to hear from you.
+.row{:style => "height:30px;"}
 
-.row
-  .small-12.columns#contact-text
+.row{:style => "padding-top: 50px;"}
+  .small-1.column
+    &nbsp
+  .small-10.column#contact-text
+    = image_tag 'durham-skyline.jpg'
+    %p#love I'd love to hear from you.
     = link_to "Email", "mailto:christopherdieckhaus@gmail.com"
+    %span / 
     = link_to "Resume", "https://www.dropbox.com/s/f7xhibfrk80x75b/%5Echris%20dieckhaus%20resume.pdf", :target => "_blank"
+    %span / 
     = link_to "Github", "https://github.com/chrisdieckhaus", :target => "_blank"
+  .small-1.column
+    &nbsp
