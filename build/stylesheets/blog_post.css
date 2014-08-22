@@ -1,4 +1,4 @@
-h1{
+h2{
   font-family: Orian;
   font-size: 34px;
   color: #0C0C0C;
@@ -15,13 +15,23 @@ article{
   text-indent: 35px;
 }
 
-#article-header{
+article#summary{
+  text-indent: 0;
+  text-align: center;
+}
+
+#article-header, #article-header-list{
   font-family: Orian, Garamond, serif;
   background-color: #141414;
-  font-size: 26px;
+  color: white;
+  font-size: 22px;
   width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
   letter-spacing: 2px;
   box-shadow: 2px 2px 5px #141414;
+}
+
+#article-header-list{
+  font-size: 22px;
 }
