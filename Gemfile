@@ -4,8 +4,10 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.3.3"
 gem "middleman-blog" 
+gem "middleman-deploy"
+
 gem "nokogiri"
-gem 'middleman-gh-pages'
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
