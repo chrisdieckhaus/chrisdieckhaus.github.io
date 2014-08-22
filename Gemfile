@@ -4,6 +4,8 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.3.3"
 gem "middleman-blog" 
+gem "middleman-deploy"
+
 gem "nokogiri"
 
 # Live-reloading plugin

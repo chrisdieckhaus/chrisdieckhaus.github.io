@@ -1,1 +1,1 @@
-This is a backup of the master branch.
+This is a backup of the source branch.
