@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+body {
+  background: #d4d4d4 url("../images/background.png");
+  text-align: center;
+  font-family: sans-serif; }
+
+h1 {
+  font-size: 32px;
+  padding: 10px 0 10px;
+  margin: 0; }
+
+.doc {
+  font-size: 14px;
+  margin: 0; }
+  .doc:before,
+  .doc:after {
+    opacity: .2;
+    padding: 6px;
+    font-style: normal;
+    position: relative;
+    content: "•"; }
+  .doc a {
+    color: rgba(0, 0, 0, 0.3); }
+    .doc a:hover {
+      color: #666; }
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s; }
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+#bg{
+  height: 500px; 
+  background-image: url('../images/durham3.jpg');
+  background-size: 100% 100%;
+}
+
+#contact-back{
+  height: 70px;
+  margin-top: 15px;
+  background-color: #0C0C0C;
+  opacity: 0.65;
+}
+
+#contact-text{
+  margin-top: 30px;
+  letter-spacing: 2px;
+  position: absolute;
+}
+#contact-text a{
+  font-family: Langdon;
+  text-transform: uppercase;
+  color: #CCCCCC;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Nexa-Light";
+  src: url('../fonts/nexa/NexaLight.otf');
+}
+
+@font-face {
+  font-family: "Cinzel";
+  src: url('../fonts/Cinzel_Family/Cinzel-Regular.otf');
+}
+
+@font-face {
+  font-family: "Abe";
+  src: url('../fonts/AbrahamLincoln/Abe/AbrahamLincoln.ttf');
+}
+
+@font-face {
+  font-family: "Langdon";
+  src: url('../fonts/langdon/Langdon.otf');
+}
+
+@font-face {
+  font-family: "Orian";
+  src: url('../fonts/Oranienbaum/Oranienbaum.ttf');
+}
+
+@font-face {
+  font-family: "Glober";
+  src: url('../fonts/glober/GloberSemiBold.otf');
+}
