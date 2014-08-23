@@ -1,3 +1,68 @@
-p{
- font-family: Orian, Garamond, serif; 
+.large.button#name-header{
+  color: #fafafa;
+  border: solid #fafafa 1pt;
+}
+
+.nav-content li{
+  color: #fafafa;
+}
+
+.nav-content a, .nav-content a:visited, .nav-content a:hover{
+  color: #fafafa;
+}
+
+.nav-content a:hover{
+    border-bottom: 2px solid #fafafa;
+}
+
+#contact-text{
+  letter-spacing: 2px;
+  height: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+#contact-text a, #contact-text span{
+  font-family: Langdon;
+  text-transform: uppercase;
+  color: #fafafa;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+ #contact-text a:hover{
+    border-bottom: 2px solid #fafafa;
+}
+
+p#love{
+  font-family: Volkorn-Italic;
+  letter-spacing: 1px;
+  font-size: 22px;
+  border-bottom: solid #fafafa 1pt;
+  color: white;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+img{
+  max-width: 100%;
+}
+
+.row .row {
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+}
+
+body{
+  background-image: url('../images/durham3.jpg');
+  background-size: 100% 100%;
 }
