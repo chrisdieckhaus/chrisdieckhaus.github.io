@@ -1,14 +1,15 @@
 <% wrap_layout :layout do %>
-  <%= stylesheet_link_tag "blog_post" %>
+  <%= stylesheet_link_tag "blog-post" %>
+  <%= stylesheet_link_tag "header-dark" %>
 <div class="row" style="height:30px;"></div>
   <div class="row" id="blog-post">
     <div class="small-12 columns">
-      <a><div class="large button" id="article-header">
+      <div class="large button" id="article-header">
         <%= current_article.title %>
-      </div></a>
+      </div>
     </div>
   </div>
-  <div class="row" id="blog-post" >
+  <div class="row" id="blog-post" style="padding-bottom: 200px;">
     <div class="small-12 columns">
       <article>
         <%= yield %>
