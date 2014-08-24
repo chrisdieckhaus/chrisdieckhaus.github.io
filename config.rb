@@ -5,6 +5,8 @@
 activate :relative_assets
 set :relative_links, true
 
+activate :directory_indexes
+
 page "blog/*", :layout => :blog_layout
 
 activate :blog do |blog|
