@@ -1,0 +1,16 @@
+.large.button#name-header{
+  color: #fafafa;
+  border: solid #fafafa 1pt;
+}
+
+.nav-content li{
+  color: #fafafa;
+}
+
+.nav-content a, .nav-content a:visited, .nav-content a:hover{
+  color: #fafafa;
+}
+
+.nav-content a:hover{
+    border-bottom: 2px solid #fafafa;
+}
