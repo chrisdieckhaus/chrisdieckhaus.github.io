@@ -1,13 +1,13 @@
 h2{
   font-family: Orian;
-  font-size: 34px;
+  font-size: 28px;
   color: #0C0C0C;
   margin-top: 20px;
 }
 
 article{
   text-align: justify;
-  font-family: Glober;
+  font-family: Volkorn;
   color: #292929;
   width: 80%;
   margin-left: auto;
@@ -21,17 +21,39 @@ article#summary{
 }
 
 #article-header, #article-header-list{
-  font-family: Orian, Garamond, serif;
-  background-color: #141414;
+  font-family: Volkorn-Italic, Garamond, serif;
+  background-color: #333333;
   color: white;
   font-size: 22px;
-  width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   box-shadow: 2px 2px 5px #141414;
+}
+
+#article-header{
+  width: 80%;
+}
+
+#article-header-list{
+  width: 100%;
 }
 
 #article-header-list{
   font-size: 22px;
+}
+
+.small-4.columns ul{
+  list-style: none;
+}
+
+li#art a{
+  font-family: Volkorn;
+  text-transform: none;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+li#art a:hover{
+  border-bottom: 2px solid #333333;
 }

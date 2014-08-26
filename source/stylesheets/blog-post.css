@@ -1,0 +1,69 @@
+body{
+  background-image: url('../images/mountains-cropped.jpg');
+  background-size: 100% 100%;
+  
+}
+
+h2{
+  font-family: Orian;
+  font-size: 28px;
+  color: #0C0C0C;
+  margin-top: 20px;
+}
+
+article{
+  text-align: justify;
+  font-family: Volkorn;
+  color: #141414;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-indent: 35px;
+}
+
+article#summary{
+  text-indent: 0;
+  text-align: center;
+}
+
+#article-header, #article-header-list{
+  font-family: Volkorn-Italic, Garamond, serif;
+  background-color: transparent;
+  color: #141414;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  border-bottom: solid #141414 1pt;
+}
+
+a, a:visited{
+  color: #141414;
+}
+
+#article-header{
+  width: 80%;
+}
+
+#article-header-list{
+  width: 100%;
+}
+
+#article-header-list{
+  font-size: 22px;
+}
+
+.small-4.columns ul{
+  list-style: none;
+}
+
+li#art a{
+  font-family: Volkorn;
+  text-transform: none;
+  color: #141414;
+  letter-spacing: 1px;
+}
+
+li#art a:hover{
+  border-bottom: 2px solid #141414;
+}

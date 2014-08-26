@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-  background: #d4d4d4 url("../images/background.png");
+  background: #fafafa;
   text-align: center;
   font-family: sans-serif; }
 
@@ -48,33 +48,6 @@ h1 {
   }
 }
 
-#bg{
-  height: 500px; 
-  background-image: url('../images/durham3.jpg');
-  background-size: 100% 100%;
-}
-
-#contact-back{
-  height: 70px;
-  margin-top: 15px;
-  background-color: #0C0C0C;
-  opacity: 0.65;
-}
-
-#contact-text{
-  margin-top: 30px;
-  letter-spacing: 2px;
-  position: absolute;
-}
-#contact-text a{
-  font-family: Langdon;
-  text-transform: uppercase;
-  color: #CCCCCC;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: center;
-}
-
 @font-face {
   font-family: "Nexa-Light";
   src: url('../fonts/nexa/NexaLight.otf');
@@ -103,4 +76,14 @@ h1 {
 @font-face {
   font-family: "Glober";
   src: url('../fonts/glober/GloberSemiBold.otf');
+}
+
+@font-face {
+  font-family: "Volkorn";
+  src: url('../fonts/Vollkorn/Vollkorn-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Volkorn-Italic";
+  src: url('../fonts/Vollkorn/Vollkorn-Italic.ttf');
 }

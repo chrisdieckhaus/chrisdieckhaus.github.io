@@ -5,6 +5,8 @@
 activate :relative_assets
 set :relative_links, true
 
+activate :directory_indexes
+
 page "blog/*", :layout => :blog_layout
 
 activate :blog do |blog|
@@ -27,7 +29,7 @@ end
 # page "/path/to/file.html", :layout => false
 #
 # With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
+
 #
 # A path which all have the same layout
 # with_layout :admin do

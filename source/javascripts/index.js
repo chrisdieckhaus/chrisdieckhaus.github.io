@@ -19,17 +19,5 @@ $( document ).ready(function() {
         };
     photoList.not(':first').hide();
     setInterval(changePhoto, delay);
-  
-    $.fn.scrollView = function () {
-        return this.each(function () {
-        $('html, body').animate({
-          scrollTop: $(this).offset().top
-        }, 1000);
-        });
-    }
-    
-    setTimeout(function(){
-      $('.row#nav').scrollView();
-    },3500); 
     
 });

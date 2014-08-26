@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= "Chris Dieckhaus | #{current_page.data.title}" %></title>
+  <link rel="shortcut icon" href="images/favicon.ico"> 
+  <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+  <%= stylesheet_link_tag "normalize" %>
+  <%= stylesheet_link_tag "foundation" %>
+  <%= stylesheet_link_tag "all" %>
+  <%= stylesheet_link_tag "foundation-icons/foundation-icons/foundation-icons.css" %>
+  <%= javascript_include_tag  "vendor/modernizr" %>
+  <%= javascript_include_tag  "vendor/jquery" %>
+  <%= javascript_include_tag  "foundation.min" %>
+</head>
+<body>
+  <%= partial 'header' %>
+  <%= stylesheet_link_tag 'contact-header' %>
+  <%= yield %>
+
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
