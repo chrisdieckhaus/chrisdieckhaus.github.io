@@ -1,4 +1,13 @@
 body{
-  background-image: url('../images/nyc.jpg');
+  background-image: url('../images/fall-bridge.jpg');
   background-size: 100% 100%;
+}
+
+#hello{
+  padding-top: 10%;
+}
+
+#hello a:visited, #hello a{
+  text-decoration: none;
+  color: #fafafa;
 }
