@@ -6,19 +6,50 @@ title: Code
 = stylesheet_link_tag 'code'
 
 .row
-  .row#bg
   .row#text
     .small-4.column#hello
-      = link_to "Girls Engineering Change", "www.girlsengineeringchange.org"
+      = link_to "Girls Engineering Change", "http://www.girlsengineeringchange.org", :target => "_blank"
+      .border-bottom
     .small-4.column#hello
-      = link_to "Das Boot", "chrisdieckhaus.github.io/dasboot"
+      = link_to "Das Boot", "http://chrisdieckhaus.github.io/dasboot", :target => "_blank"
+      .border-bottom
     .small-4.column#hello
-      = link_to "Pray with Me", "chrisdieckhaus.github.io/pray"
+      = link_to "Pray with Me", "http://chrisdieckhaus.github.io/pray", :target => "_blank"
+      .border-bottom
 
   .row#text
     .small-4.column#about
-      Designed Rails-based website for Durham, NC-based non-profit that aims to shrink the 7:1 male-female gender gap in the Science, Technology, Engineering, and Math fields.
+      Designed Rails-based website for Durham, NC-based non-profit.
     .small-4.column#about
       Middleman-based website for Krzyzewskiville tenting group.
     .small-4.column#about
       Simple Javascript prayer book web application.
+      
+  .row#text
+    .small-4.column#git
+      .small-2.column
+        &nbsp
+      .small-4.column#githalf
+        = link_to "SITE", "http://www.girlsengineeringchange.org", :target => "_blank"
+      .small-4.column#githalf
+        = link_to "GITHUB", "http://github.com/chrisdieckhaus/gec", :target => "_blank"
+      .small-2.column
+        &nbsp
+    .small-4.column#git
+      .small-2.column
+        &nbsp
+      .small-4.column#githalf
+        = link_to "SITE", "http://chrisdieckhaus.github.io/dasboot", :target => "_blank"
+      .small-4.column#githalf
+        = link_to "GITHUB", "http://github.com/chrisdieckhaus/dasboot", :target => "_blank"
+      .small-2.column
+        &nbsp
+    .small-4.column#git
+      .small-2.column
+        &nbsp
+      .small-4.column#githalf
+        = link_to "SITE", "http://chrisdieckhaus.github.io/pray", :target => "_blank"
+      .small-4.column#githalf
+        = link_to "GITHUB", "http://github.com/chrisdieckhaus/pray", :target => "_blank"
+      .small-2.column
+        &nbsp
