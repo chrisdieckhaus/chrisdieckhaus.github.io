@@ -5,7 +5,7 @@ task :build do
 end
 
 task :publish do
-  sh "middleman build --clean"
+  sh "middleman build"
   sh "middleman deploy"
 end
 
