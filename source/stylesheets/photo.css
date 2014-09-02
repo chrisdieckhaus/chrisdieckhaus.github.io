@@ -6,3 +6,31 @@ body{
 p{
   color: #fafafa;
 }
+
+#list{
+  float: right;
+  padding-top: 8%;
+}
+
+#list ul{
+  list-style: none;
+  color: #fafafa;
+  font-family: Langdon;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  border: solid #fafafa 1pt;
+  padding: 10px;
+}
+
+#list li{
+  padding: 10px;
+}
+
+#list a, #list a:visited{
+  color: #fafafa;
+}
+
+#list a:hover{
+  border-bottom: solid #fafafa 2pt;
+}
