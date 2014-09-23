@@ -8,12 +8,12 @@ body{
 }
 
 #list ul{
-  color: #333333;
-  border: solid #333333 1pt;
+  color: #fafafa;
+  border: solid #fafafa 1pt;
 }
 
 #list a, #list a:visited{
-  color: #333333;
+  color: #fafafa;
 }
 
 #list a:hover{

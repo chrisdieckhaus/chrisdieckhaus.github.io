@@ -3,13 +3,9 @@ body{
   background-size: 100% 100%;
 }
 
-p{
-  color: #fafafa;
-}
-
 #list{
+  padding-top: 5%;
   float: right;
-  padding-top: 8%;
 }
 
 #list ul{
