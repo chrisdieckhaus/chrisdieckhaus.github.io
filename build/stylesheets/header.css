@@ -27,6 +27,9 @@ div.nav{
   padding: 10px 35px 0 35px;
 	text-transform: uppercase;
   color: #333333;
+  font-family: 'Langdon', serif;
+  font-size: 17px;
+  letter-spacing: 2px;
 }
 
 .nav-content a, .nav-content a:visited, .nav-content a:hover{
