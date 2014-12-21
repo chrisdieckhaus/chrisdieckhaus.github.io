@@ -1,0 +1,22 @@
+body{ 
+  background-image: url('../images/london3.jpg'); 
+  background-size: 100% 100%;
+}
+
+#list{
+  padding-top: 5%;
+  float: left;
+}
+
+#list ul{
+  color: #141414;
+  border: solid #141414 1pt;
+}
+
+#list a, #list a:visited{
+  color: #141414;
+}
+
+#list a:hover{
+  border-bottom: solid #141414 2pt;
+}
