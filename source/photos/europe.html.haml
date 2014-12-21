@@ -1,1 +1,24 @@
-%p this place does not exist.
+---
+title: Photography
+---
+= stylesheet_link_tag 'all'
+= stylesheet_link_tag 'photo'
+= stylesheet_link_tag 'header-dark'
+= stylesheet_link_tag 'europe'
+
+.row
+  .small-1.column#list
+  .small-3.column#list
+    %ul
+      %li
+        = link_to "Scotland", "scotland.html"
+      %li
+        = link_to "London", "https://www.flickr.com/photos/chrisdieckhaus/sets/72157649798351371/", :target => "_blank"
+      %li
+        = link_to "Dublin", "https://www.flickr.com/photos/chrisdieckhaus/sets/72157648967775608/", :target => "_blank"
+      %li
+        = link_to "Paris", "https://www.flickr.com/photos/chrisdieckhaus/sets/72157649743304666/", :target => "_blank"
+      %li
+        = link_to "Barcelona", "https://www.flickr.com/photos/chrisdieckhaus/sets/72157649391478259/", :target => "_blank"
+      %li
+        = link_to "Switzerland", "https://www.flickr.com/photos/chrisdieckhaus/sets/72157648958569147/", :target => "_blank"
