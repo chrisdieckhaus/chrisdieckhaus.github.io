@@ -1,0 +1,21 @@
+body{ 
+  background-image: url('../images/castle3.jpg'); 
+  background-size: 100% 100%;
+}
+
+#list{
+  padding-top: 5%;
+}
+
+#list ul{
+  color: #fafafa;
+  border: solid #fafafa 1pt;
+}
+
+#list a, #list a:visited{
+  color: #fafafa;
+}
+
+#list a:hover{
+  border-bottom: solid #fafafa 2pt;
+}
