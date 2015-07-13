@@ -10,41 +10,36 @@ body{
   margin-bottom: 20px;
 }
 
-.border-bottom{
-  border-bottom: 1pt solid #333333;
-  position: absolute;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 15px;
-}
-
-#hello a:visited, #hello a{
+#hello a{
   text-decoration: none;
+  color: #333;  
+}
+
+p.descr{
+  padding-top: 20px;
+  margin-top: 10px;
+  border-top: solid #333 1pt;
+  height: 75px;
+}
+
+.footer{
+  font-family: 'Volkorn-Italic';
   color: #333333;
+  border: none;
+  letter-spacing: 1.5px;
+  font-size: 16px;
 }
 
-#git a:hover{
-  border-bottom: solid #333333 2pt;
+a.footer:hover{
+  color: #222222;
 }
 
-#about{
-  color: #333333;
-  text-align: center;
-  margin-bottom: 10px;
-  padding-bottom: 15px;
+a.bottom-link{
+  font-family: 'Langdon', sans-serif;
+  font-size: 17px;
+  border-bottom: none;
 }
 
-#git a, #git a:visited{
-  font-family: Langdon;
-  color: #333333;
-  letter-spacing: 2px;
-}
-
-#githalf{
-  text-align: center;
-}
-
-i{
-  font-size: 14px;
+a.bottom-link:hover{
+  border-bottom: solid #333 2pt;
 }
