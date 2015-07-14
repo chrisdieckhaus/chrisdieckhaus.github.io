@@ -1,8 +1,3 @@
-.large.button#name-header{
-  color: #fafafa;
-  border: solid #fafafa 1pt;
-}
-
 .nav-content li{
   color: #fafafa;
 }
@@ -14,3 +9,12 @@
 .nav-content a:hover{
     border-bottom: 2px solid #fafafa;
 }
+
+.name-box{
+	border-color: #fafafa;
+}
+
+a.btn-name-box, a.btn-name-box:hover{
+	color: #fafafa;
+}
+

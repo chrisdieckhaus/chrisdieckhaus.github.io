@@ -2,7 +2,6 @@
 
 body {
   background: #fafafa;
-  text-align: center;
   font-family: sans-serif;
   background-attachment: fixed;
 }
@@ -88,5 +87,21 @@ h1 {
 @font-face {
   font-family: "Volkorn-Italic";
   src: url('../fonts/Vollkorn/Vollkorn-Italic.ttf');
+}
+
+.name-box {
+  font-family: "Volkorn";
+  border: solid black 1pt;
+  text-align: center;
+  padding: 0;
+  margin-top: 20px;
+}
+
+a.btn-name-box{
+  background: transparent;
+  width: 100%;
+  color: #333333;
+  font-size: 30px;
+  margin: 7.5px 0 7.5px 0;
 }
 
