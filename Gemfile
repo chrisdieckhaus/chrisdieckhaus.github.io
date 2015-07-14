@@ -19,3 +19,4 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 gem 'haml'
 
+gem 'therubyracer'
