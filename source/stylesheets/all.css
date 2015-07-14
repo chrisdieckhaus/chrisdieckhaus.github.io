@@ -105,3 +105,24 @@ a.btn-name-box{
   margin: 7.5px 0 7.5px 0;
 }
 
+.navbar{
+  text-align: center;
+}
+
+.navbar-link > a{
+  color: #333;
+  font-family: Langdon;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+
+.navbar-link > a:hover{
+  text-decoration: none;
+  border-bottom: solid #333 2pt;
+}
+
+.navbar-list{
+  list-style: none;
+}
+
