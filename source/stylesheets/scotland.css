@@ -8,10 +8,6 @@ body{
   background-position:center;
 }
 
-#list{
-  padding-top: 5%;
-}
-
 #list ul{
   color: #fafafa;
   border: solid #fafafa 1pt;

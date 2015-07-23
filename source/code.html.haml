@@ -6,32 +6,34 @@ title: Code
 = stylesheet_link_tag 'code'
 
 .row#text
-  .large-4.small-12.column#hello
+  .col-lg-4.col-md-6.col-sm-6.col-xs.12#hello
     = link_to "Girls Engineering Change", "http://www.girlsengineeringchange.org", :target => "_blank"
     %p.descr Middleman-based website for Durham, NC-based non-profit.
-    .row
-      .large-6.small-6.column
+    .row.foot
+      .col-lg-6.col-xs-6
         = link_to "SITE", "http://www.girlsengineeringchange.org", :target => "_blank", :class => "bottom-link"
-      .large-6.small-6.column
+      .col-lg-6.col-xs-6
         = link_to "GITHUB", "http://github.com/chrisdieckhaus/gec-mm", :target => "_blank", :class => "bottom-link"
-  .large-4.small-12.column#hello
+  .col-lg-4.col-md-6.col-sm-6.col-xs.12#hello
     = link_to "Das Boot", "http://chrisdieckhaus.github.io/dasboot", :target => "_blank"
     %p.descr Website for Krzyzewskiville tent group.
-    .row
-      .large-6.small-6.column
+    .row.foot
+      .col-lg-6.col-xs-6
         = link_to "SITE", "http://chrisdieckhaus.github.io/dasboot", :target => "_blank", :class => "bottom-link"
-      .large-6.small-6.column
+      .col-lg-6.col-xs-6
         = link_to "GITHUB", "http://github.com/chrisdieckhaus/dasboot", :target => "_blank", :class => "bottom-link"
-  .large-4.small-12.column#hello
+  .col-lg-4.col-md-6.col-sm-6.col-xs.12#hello
     = link_to "Cookbook", "http://chris-cookbook.herokuapp.com/", :target => "_blank"
     %p.descr Personal Rails application for storing recipes.
-    .row
-      .large-6.small-6.column
+    .row.foot
+      .col-lg-6.col-xs-6
         = link_to "SITE", "http://chris-cookbook.herokuapp.com/", :target => "_blank", :class => "bottom-link"
-      .large-6.small-6.column
+      .col-lg-6.col-xs-6
         = link_to "GITHUB", "http://github.com/chrisdieckhaus/cookbook", :target => "_blank", :class => "bottom-link"
         
 .row
-  .large-12.small-12.column
+  .col-lg-12.center
     = link_to "Click here to view more projects.", "http://github.com/chrisdieckhaus", :target => "_blank", :class => "footer"
+  .col-lg-12.space
+    &nbsp;
       

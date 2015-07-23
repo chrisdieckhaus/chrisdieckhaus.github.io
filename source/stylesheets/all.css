@@ -49,6 +49,10 @@ h1 {
   }
 }
 
+.center{
+  text-align: center;
+}
+
 @font-face {
   font-family: "Nexa-Light";
   src: url('../fonts/nexa/NexaLight.otf');

@@ -3,12 +3,10 @@ title: Photography
 ---
 = stylesheet_link_tag 'all'
 = stylesheet_link_tag 'photo'
-= stylesheet_link_tag 'header-dark'
 = stylesheet_link_tag 'europe'
 
 .row
-  .small-1.column#list
-  .small-3.column#list
+  .col-lg-2.col-lg-offset-2.col-md-2.col-md-offset-7.col-sm-3.col-sm-offset-3.col-xs-8.col-xs-offset-2#list
     %ul
       %li
         = link_to "Scotland", "scotland.html"

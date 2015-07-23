@@ -1,5 +1,5 @@
 body{ 
-  background-image: url('../images/london3.jpg'); 
+  background-image: url('../images/howth1.jpg'); 
   background-repeat:no-repeat;
   -webkit-background-size:cover;
   -moz-background-size:cover;
@@ -8,14 +8,10 @@ body{
   background-position:center;
 }
 
-#list{
-  padding-top: 5%;
-  float: left;
-}
-
 #list ul{
   color: #141414;
   border: solid #141414 1pt;
+  text-align: center; 
 }
 
 #list a, #list a:visited{
