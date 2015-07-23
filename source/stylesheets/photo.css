@@ -1,11 +1,11 @@
 body{
   background-image: url('../images/fall-bridge.jpg');
-  background-size: 100% 100%;
-}
-
-#list{
-  padding-top: 5%;
-  float: right;
+  bbackground-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
 
 #list ul{
@@ -21,6 +21,7 @@ body{
 
 #list li{
   padding: 10px;
+  text-align: center;
 }
 
 #list a, #list a:visited{
@@ -29,4 +30,5 @@ body{
 
 #list a:hover{
   border-bottom: solid #fafafa 2pt;
+  text-decoration: none;
 }

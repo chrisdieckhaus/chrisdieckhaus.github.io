@@ -10,21 +10,17 @@
   <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
   
-  <%= stylesheet_link_tag "normalize" %>
-  <%= stylesheet_link_tag "foundation" %>
+  <%= stylesheet_link_tag "bootstrap" %>
   <%= stylesheet_link_tag "all" %>
-  <%= stylesheet_link_tag "foundation-icons/foundation-icons/foundation-icons.css" %>
   <%= javascript_include_tag  "vendor/modernizr" %>
   <%= javascript_include_tag  "vendor/jquery" %>
-  <%= javascript_include_tag  "foundation.min" %>
+  <%= javascript_include_tag  "bootstrap.min" %>
+
 </head>
 <body>
-  <%= partial 'header' %>
+  <%= partial 'namebox' %>
+  <br>
+  <%= partial 'breadcrumb' %>
   <%= yield %>
-
-  
-  <script>
-    $(document).foundation();
-  </script>
 </body>
 </html>
