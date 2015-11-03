@@ -7,28 +7,3 @@ body{
   background-size:cover;
   background-position:center;
 }
-
-#list ul{
-  list-style: none;
-  color: #fafafa;
-  font-family: Langdon;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 16px;
-  border: solid #fafafa 1pt;
-  padding: 10px;
-}
-
-#list li{
-  padding: 10px;
-  text-align: center;
-}
-
-#list a, #list a:visited{
-  color: #fafafa;
-}
-
-#list a:hover{
-  border-bottom: solid #fafafa 2pt;
-  text-decoration: none;
-}

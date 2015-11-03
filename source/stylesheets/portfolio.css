@@ -1,0 +1,37 @@
+body{
+  background-image: url('../images/wanderlust2.jpg');
+  bbackground-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+}
+
+#list ul{
+  color: #333333;
+  border: solid #333333 1pt;
+}
+
+#list a, #list a:visited{
+  color: #333333;
+}
+
+#list a:hover{
+  border-bottom: solid #333333 2pt;
+}
+
+img{
+	max-width:100%;
+	max-height:100%;
+}
+
+ul#imglist{
+	padding: 0;
+}
+
+li.text{
+  	color: #333333;
+  	letter-spacing: 2px;
+  	background: #fafafa;
+}
