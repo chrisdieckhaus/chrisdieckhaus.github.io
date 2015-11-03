@@ -1,16 +1,17 @@
 body{ 
-  background-image: url('../images/london3.jpg'); 
-  background-size: 100% 100%;
-}
-
-#list{
-  padding-top: 5%;
-  float: left;
+  background-image: url('../images/howth1.jpg'); 
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
 
 #list ul{
   color: #141414;
   border: solid #141414 1pt;
+  text-align: center; 
 }
 
 #list a, #list a:visited{
