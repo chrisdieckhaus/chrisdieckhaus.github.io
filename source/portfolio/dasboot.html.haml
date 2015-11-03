@@ -7,4 +7,25 @@ title: Das Boot
 = stylesheet_link_tag 'code'
 = stylesheet_link_tag 'portfolio'
 
-%h1 Das Boot
+.container
+	.row
+		.col-lg-4
+			.row
+				.col-xs-9.col-xs-offset-1.col-sm-6.col-sm-offset-2.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0#hello
+					%h2
+						Das Boot
+			.row
+				.col-xs-9.col-xs-offset-1.col-sm-6.col-sm-offset-2.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0
+					%p#about
+						Site for tenting group for Duke Basketball. The site is built using Ruby on Rails. Users can log into the site, update their availabilities, and view schedules. Admins can create schedules and shifts. 
+			.row
+				.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0
+					.row.links
+						.col-lg-4.col-sm-4.col-xs-6.col-lg-offset-2
+							= link_to "Site", "http://dasboot.herokuapp.com", :target => "_blank"
+						.col-lg-4.col-sm-4.col-xs-6
+							= link_to "Github", "https://github.com/chrisdieckhaus/dasboot-rails", :target => "_blank"
+		.col-lg-8.navbar-link
+			%img#change(src="/images/portfolio/dasboot5.jpg")
+			= link_to "Next", "", :class => "pull-right"
+			= link_to "Prev"

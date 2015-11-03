@@ -7,4 +7,25 @@ title: Cookbook
 = stylesheet_link_tag 'code'
 = stylesheet_link_tag 'portfolio'
 
-%h1 Cookbook
+.container
+	.row
+		.col-lg-4
+			.row
+				.col-xs-9.col-xs-offset-1.col-sm-6.col-sm-offset-2.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0#hello
+					%h2
+						Cookbook
+			.row
+				.col-xs-9.col-xs-offset-1.col-sm-6.col-sm-offset-2.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0
+					%p#about
+						Site for storing recipes. I was tired of storing all of my recipes in a bookmarks folder in my web browser, so I built a Rails web application that allows me to add, edit, and delete recipes, as well as write reviews.
+			.row
+				.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0
+					.row.links
+						.col-lg-4.col-sm-4.col-xs-6.col-lg-offset-2
+							= link_to "Site", "http://chris-cookbook.herokuapp.com", :target => "_blank"
+						.col-lg-4.col-sm-4.col-xs-6
+							= link_to "Github", "https://github.com/chrisdieckhaus/cookbook", :target => "_blank"
+		.col-lg-8.navbar-link
+			%img#change(src="/images/portfolio/cookbook1.jpg")
+			= link_to "Next", "", :class => "pull-right"
+			= link_to "Prev"
