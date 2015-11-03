@@ -11,21 +11,23 @@ title: Portfolio
 
 .container
 	.row
-		.col-lg-6.col-md-6.col-sm-6.col-sm-offset-0.col-xs-6.col-xs-offset-3#list
+		.col-lg-4.col-md-6.col-sm-6.col-sm-offset-0.col-xs-6.col-xs-offset-3#list
 			%ul
 				%li
-					= link_to "Girls Engineering Change", "http://www.girlsengineeringchange.org", :target => "_blank", :id => "gec", :onmouseover => "mouseoverGEC()"
+					= link_to "Girls Engineering Change", "/portfolio/gec", :id => "gec", :onmouseover => "mouseoverGEC()"
 				%li
-					= link_to "Das Boot", "https://dasboot.herokuapp.com", :target => "_blank", :id => "dasboot", :onmouseover => "mouseoverDasBoot()"
+					= link_to "Das Boot", "/portfolio/dasboot", :id => "dasboot", :onmouseover => "mouseoverDasBoot()"
 				%li
-					= link_to "ScienceHub", "/portfolio/sciencehub", :target => "_blank"
+					= link_to "ScienceHub", "/portfolio/sciencehub", :id => "scihub", :onmouseover => "mouseoverScienceHub()"
 				%li
-					= link_to "Cookbook", "https://chris-cookbook.herokuapp.com", :target => "_blank"
+					= link_to "Cookbook", "/portfolio/cookbook", :id => "cookbook", :onmouseover => "mouseoverCookbook()"
 				%li
-					= link_to "Pray with Me", "https://chris-cookbook.herokuapp.com", :target => "_blank"
+					= link_to "Pray with Me", "/portfolio/pray", :id => "pray", :onmouseover => "mouseoverPray()"
 				%li
-					= link_to "Reading Extension", "https://github.com/chrisdieckhaus/reading-extension", :target => "_blank"
-		.col-lg-6.col-md-6.col-sm-6.col-sm-offset-0.col-xs-6.col-xs-offset-3#list
+					= link_to "Reading Extension", "/portfolio/extension"
+				%li
+					= link_to "GitHub", "https://github.com/chrisdieckhaus", :target => "_blank"
+		.col-lg-8.col-md-6.col-sm-6.col-sm-offset-0.col-xs-6.col-xs-offset-3
 			%ul#imglist
 				%img#change(src="/images/portfolio/gec.jpg")
 				
