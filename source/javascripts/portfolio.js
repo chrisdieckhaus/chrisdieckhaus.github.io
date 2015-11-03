@@ -22,3 +22,8 @@ function mouseoverPray(){
     var img = document.getElementById("change");
     img.src = "/images/portfolio/pray.jpg"
 }
+
+function nextGEC(){
+    var img = document.getElementById("change");
+    img.src = "/images/portfolio/gec3.jpg"
+}
