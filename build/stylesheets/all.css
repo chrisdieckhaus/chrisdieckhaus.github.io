@@ -2,7 +2,6 @@
 
 body {
   background: #fafafa;
-  text-align: center;
   font-family: sans-serif;
   background-attachment: fixed;
 }
@@ -50,6 +49,10 @@ h1 {
   }
 }
 
+.center{
+  text-align: center;
+}
+
 @font-face {
   font-family: "Nexa-Light";
   src: url('../fonts/nexa/NexaLight.otf');
@@ -88,5 +91,67 @@ h1 {
 @font-face {
   font-family: "Volkorn-Italic";
   src: url('../fonts/Vollkorn/Vollkorn-Italic.ttf');
+}
+
+.name-box {
+  font-family: "Volkorn";
+  border: solid black 1pt;
+  text-align: center;
+  padding: 0;
+  margin-top: 30px;
+}
+
+a.btn-name-box{
+  background: transparent;
+  width: 100%;
+  color: #333333;
+  font-size: 30px;
+  margin: 7.5px 0 7.5px 0;
+}
+
+.navbar{
+  text-align: center;
+}
+
+.navbar-link > a{
+  color: #333;
+  font-family: Langdon;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 17px;
+}
+
+.navbar-link > a:hover{
+  text-decoration: none;
+  border-bottom: solid #333 2pt;
+}
+
+.navbar-list{
+  list-style: none;
+}
+
+#list ul{
+  list-style: none;
+  color: #fafafa;
+  font-family: Langdon;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  border: solid #fafafa 1pt;
+  padding: 10px;
+}
+
+#list li{
+  padding: 10px;
+  text-align: center;
+}
+
+#list a, #list a:visited{
+  color: #fafafa;
+}
+
+#list a:hover{
+  border-bottom: solid #fafafa 2pt;
+  text-decoration: none;
 }
 

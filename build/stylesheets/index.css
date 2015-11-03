@@ -1,21 +1,13 @@
 body{
   background-image: url('../images/mountain-winter.jpg');
-  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
 
 img {
   width: 100%;
-}
-
-#slider li {
-  box-shadow: 2px 2px 5px #141414;
-}
-
-#slider {
-  max-height: 600px; 
-  overflow: hidden; 
-  list-style: none; 
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
 }

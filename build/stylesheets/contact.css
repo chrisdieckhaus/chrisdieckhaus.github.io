@@ -1,51 +1,35 @@
-#contact-text{
-  letter-spacing: 2px;
-  height: 10%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: transparent;
+body{
+  background-image: url('../images/durham3.jpg');
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
 }
-#contact-text a, #contact-text span{
+
+.links > div > a{
   font-family: Langdon;
   text-transform: uppercase;
   color: #fafafa;
-  text-align: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  font-size: 17px;
+  letter-spacing: 2px;
 }
 
- #contact-text a:hover{
-    border-bottom: 2px solid #fafafa;
+.links > div > a:hover{
+  border-bottom: 2px solid #fafafa;
+  text-decoration: none;
 }
 
-p#love{
+h2{
   font-family: Volkorn-Italic;
   letter-spacing: 1px;
   font-size: 22px;
-  border-bottom: solid #fafafa 1pt;
-  color: white;
-  max-width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10px;
-  padding-top: 15px;
-  padding-bottom: 5px;
+  color: #fafafa;
 }
 
-img{
-  max-width: 100%;
+.links{
+  border: none;
+  text-align: center;
 }
 
-.row .row {
-  width: auto;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: none;
-}
-
-body{
-  background-image: url('../images/durham3.jpg');
-  background-size: 100% 100%;
-}
