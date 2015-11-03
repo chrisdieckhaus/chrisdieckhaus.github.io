@@ -7,4 +7,25 @@ title: GEC
 = stylesheet_link_tag 'code'
 = stylesheet_link_tag 'portfolio'
 
-%h1 Girls Engineering Change
+
+.container
+	.row
+		.col-lg-4
+			.row
+				.col-xs-9.col-xs-offset-1.col-sm-6.col-sm-offset-2.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0#hello
+					%h2
+						Girls Engineering Change
+			.row
+				.col-xs-9.col-xs-offset-1.col-sm-6.col-sm-offset-2.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0
+					%p#about Designed and developed website for local Durham, NC non-profit Girls Engineering Change. I am good friends with the founder, and wanted to give to the organization by building this site for them.
+			.row
+				.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.col-md-4.col-md-offset-4.col-lg-12.col-lg-offset-0
+					.row.links
+						.col-lg-4.col-sm-4.col-xs-6.col-lg-offset-2
+							= link_to "Site", "http://girlsengineeringchange.org/", :target => "_blank"
+						.col-lg-4.col-sm-4.col-xs-6
+							= link_to "Github", "https://github.com/chrisdieckhaus/gec", :target => "_blank"
+		.col-lg-8.navbar-link
+			%img#change(src="/images/portfolio/gec.jpg")
+			= link_to "Next", "", :class => "pull-right"
+			= link_to "Prev"
